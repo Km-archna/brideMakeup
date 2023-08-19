@@ -1,0 +1,100 @@
+/* styles.css */
+body{
+    margin: 0;
+    padding: 0;
+    /* background-image: url(background.jpg); */
+    background-size: cover;
+    background-color: rgb(93, 93, 170);
+    /* background-color: transparent; */
+    backdrop-filter: 3px;
+}
+.reviews {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.review {
+    border: 1px solid #ddd;
+    padding: 2px;
+    margin: 10px;
+    max-width: 350px;
+    box-shadow: 10px rgba(0, 0, 0, 0.1);
+}
+
+.reviewer {
+    display: flex;
+    align-items: center;
+}
+
+.reviewer img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.review-text {
+    font-size: 25px;
+    line-height: 1;
+    color: #0f0e0e;
+}
+
+
+/* 1 responsivestart  */
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    background-color: #f0f0f0;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+ /* 2 responsive end */

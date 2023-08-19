@@ -1,0 +1,50 @@
+
+
+
+/* styles.css */
+ 
+
+body{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    backdrop-filter:blur(3px);
+    background-color: transparent;
+
+}
+.table-container {
+    overflow-x: auto;
+    backdrop-filter: blur(3px);
+}
+
+.image-table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    backdrop-filter: blur(3px);
+}
+
+.image-table th, .image-table td {
+    border: 1px solid #ddd;
+    /* backdrop-filter: blur(3px); */
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.image-table img {
+    max-width: 50%;
+    backdrop-filter: blur(3px);
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+
+} 
+
+
+

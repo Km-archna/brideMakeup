@@ -1,0 +1,152 @@
+/* Reset some default styles for better consistency */
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(background.jpg);
+    background-size: cover;
+    background-color: transparent;
+
+}
+
+/* Navbar styles */
+ 
+.navbar {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: transparent;
+    color: rgb(136, 28, 28);
+    padding: 10px 20px;
+}
+
+.logo {
+    
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.nav-buttons {
+    display: flex;
+    margin-left: 50%;
+}
+
+.nav-button {
+    text-decoration: none;
+    font-size: 28px;
+    color: rgb(87, 3, 3);
+    margin-right: 30px;
+    float: right;
+}
+
+/* Content styles */
+.content {
+    /* background-image: url('background-image.jpg'); */
+    background-size: cover;
+    background-color:transparent;
+    text-align: center;
+    padding: 100px;
+    color: rgb(83, 3, 3);
+}
+
+.content h1 {
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding: 2%;
+    background-color:transparent;
+
+}
+
+.content p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    padding: 3%;
+    background-color:transparent;
+
+}
+
+.main-button {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 10px;
+    background-color: transparent;
+    color:rgb(167, 28, 28);
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.main-button:hover {
+    background-color: #555;
+}
+
+
+/* icons..... */
+ 
+/* responsive start */
+/* Add this media query to adjust styles for screens with a max-width of 600px */
+@media (max-width: 600px) {
+    header, nav, main, footer {
+        padding: 10px;
+    }
+}
+
+/* responsive end */
+
+/* 1 responsivestart  */
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    background-color: #f0f0f0;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+ /* 2 responsive end */

@@ -1,0 +1,126 @@
+/* styles.css */
+
+/* Reset default margin and padding for body */
+body{
+    margin-bottom: 30px;
+    padding: 0;
+    /* background-image: url(background.jpg); */
+    background-color: aqua;
+    background-size: cover;
+    /* background-color: transparent; */
+
+}
+
+/* Center align content within the viewport */
+.row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Viewport height */
+    text-align: center;
+}
+
+/* Style headings */
+.content h1 {
+    font-size: 55px;
+    margin-bottom: 35px;
+    padding: 2%;
+    background-color:transparent;
+
+}
+
+h3 {
+    margin-top: 5px;
+    font-size: 24px;
+    color: #041749;
+}
+
+/* Style paragraph */
+p {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    color: #200680;
+}
+
+/* Style contact list */
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color: #500c0c;
+}
+
+/* Style links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/* 1 responsivestart  */
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header, nav, main, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+
+nav {
+    background-color: #444;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    background-color: #f0f0f0;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+}
+ /* 2 responsive end */
